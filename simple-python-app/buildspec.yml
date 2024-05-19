@@ -25,5 +25,7 @@ phases:
     commands:
       - echo "Build completed successfully!"
   artifacts:
-  files:
+    files:
     - '**/*'
+    discard-paths: no
+    base-directory: build
